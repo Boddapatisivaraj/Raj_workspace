@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="resource//Alogin.feature",glue="stepdefination",dryRun=false)
- public class Adminlogin {
+@CucumberOptions(features="resource//multipledata.feature",glue="stepdefination",dryRun=false)
+public class multiple {
 
 }
